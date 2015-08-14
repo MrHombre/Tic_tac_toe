@@ -1,4 +1,4 @@
-require "ttt/version"
+require_relative "ttt/version"
 
 module Ttt
   # Your code goes here...

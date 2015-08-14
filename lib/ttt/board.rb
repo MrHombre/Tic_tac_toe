@@ -20,6 +20,12 @@ module Ttt
       false
     end
 
+    def formatted_grid
+      grid.each do |row|
+        puts row.map { |cell| cell.value.empty? ? "_" : cell.value }.join(" ")
+      end
+    end
+
     def draw?
       grid.flatten.map { |cell| cell.value }.none_empty?
     end
