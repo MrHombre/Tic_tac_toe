@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'ttt/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "ttt"
+  spec.name          = "tic_tac_toe"
   spec.version       = Ttt::VERSION
   spec.authors       = ["James"]
-  spec.email         = ["“jlett89@gmail.com\nssh-keygen -t rsa -C “jlett89@gmail.com"]
+  spec.email         = ["“jlett89@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{A simple tic tac toe game.}
+  spec.description   = %q{}
+  spec.homepage      = ""
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
